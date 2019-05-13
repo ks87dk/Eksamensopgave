@@ -3,7 +3,7 @@ public class Medlem implements MedlemImpl {
 
 
     private String virksomhedsnavn;
-
+    private int cvr;
     public String getVirksomhedsnavn() {
         return virksomhedsnavn;
     }
