@@ -1,0 +1,26 @@
+
+public class Medlem implements MedlemImpl {
+
+
+    private String virksomhedsnavn;
+
+    public String getVirksomhedsnavn() {
+        return virksomhedsnavn;
+    }
+
+    public void setVirksomhedsnavn(String virksomhedsnavn) {
+        this.virksomhedsnavn = virksomhedsnavn;
+    }
+
+    public int getCvr() {
+        return cvr;
+    }
+
+    public void setCvr(int cvr) {
+        this.cvr = cvr;
+    }
+
+    private int cvr;
+
+
+}
