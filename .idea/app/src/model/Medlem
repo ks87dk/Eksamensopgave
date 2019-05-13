@@ -4,6 +4,26 @@ public class Medlem implements MedlemImpl {
 
     private String virksomhedsnavn;
     private int cvr;
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public int getTelefonNummer() {
+        return telefonNummer;
+    }
+
+    public void setTelefonNummer(int telefonNummer) {
+        this.telefonNummer = telefonNummer;
+    }
+
+    private String adresse;
+    private int telefonNummer;
+
     public String getVirksomhedsnavn() {
         return virksomhedsnavn;
     }
