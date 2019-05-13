@@ -19,5 +19,16 @@ public class Lokale implements LokaleImpl
     private String lokaleNavn;
     private String location;
 
+    public int getAntalKvadratMeter() {
+        return antalKvadratMeter;
+    }
+
+    public void setAntalKvadratMeter(int antalKvadratMeter) {
+        this.antalKvadratMeter = antalKvadratMeter;
+    }
+
+    private int antalKvadratMeter;
+
+
 
 }
