@@ -5,6 +5,7 @@ public class Polet extends Object {
     private String id;
     private String lokaleID;
 
+
     public int getAntal() {
         return antal;
     }
